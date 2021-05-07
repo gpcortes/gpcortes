@@ -1,0 +1,71 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "mikestead.dotenv",
+      "coenraads.bracket-pair-colorizer",
+      "dbaeumer.vscode-eslint",
+      "kamikillerto.vscode-colorize"
+    ]
+  },
+  "settings": {
+    // Editor customizing
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "400",
+    "editor.fontSize": 15,
+    "editor.suggestFontSize": 15,
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    // Auto applies editor rules for long lines of code
+    "editor.rulers": [
+      // 80,
+      // 120
+    ],
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.highlightModifiedTabs": true,
+    // Terminal
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 15,
+    // Colorize settings
+    "colorize.languages": ["javascript", "typescript", "json", "html", "css"],
+    "breadcrumbs.enabled": true,
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.tabs.enabled": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnType": true,
+    "html.format.extraLiners": "head, body, /html",
+    "bracketPairColorizer.activeScopeCSS": [
+      "borderStyle : solid",
+      "borderWidth : 1px",
+      "borderColor : {color}; opacity: 0.5"
+    ],
+    "colorize.colorized_colors": [
+      "BROWSERS_COLORS",
+      "HEXA",
+      "RGB",
+      "HSL"
+    ],
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.packageManager": "yarn"
+  }
+}
