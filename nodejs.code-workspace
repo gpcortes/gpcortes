@@ -10,7 +10,8 @@
       "mikestead.dotenv",
       "coenraads.bracket-pair-colorizer",
       "dbaeumer.vscode-eslint",
-      "kamikillerto.vscode-colorize"
+      "kamikillerto.vscode-colorize",
+      "dsznajder.es7-react-js-snippets"
     ]
   },
   "settings": {
